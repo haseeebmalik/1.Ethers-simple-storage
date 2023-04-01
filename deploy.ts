@@ -10,6 +10,7 @@ async function main() {
   //compile them seperetely
   //below is our local blockchain rpc url from Ganache
   //http://127.0.0.1:7545
+  
   const provider = new ethers.providers.JsonRpcProvider(
     process.env.RPC_URL!
   );
